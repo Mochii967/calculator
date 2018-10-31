@@ -1,0 +1,17 @@
+<p>
+  these are words
+</p>
+<div id="container">
+<input id="input1" type="number" (keyup) = "read($event)"><br>
+<input id="input2" type="number" (keyup) = "read2($event)"><br>
+<select id="operation" name="operation" (input) = "operation($event)">
+  <option default="true" value="">select the operation</option>
+  <option name="add" value="add" (hashchange) = "operation($event)">+</option>
+  <option name="sub" value="sub" (hashchange) = "operation($event)">-</option>
+  <option name="mut" value="mut" (hashchange) = "operation($event)">*</option>
+  <option name="div" value="div" (hashchange) = "operation($event)">/</option>
+</select><br>
+<button id="equals" (click) = "solution()">=</button><br>
+<button id="clear" (click) = "clear()">Clear</button><br><br>
+</div>
+{{answer}}
