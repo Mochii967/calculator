@@ -1,0 +1,15 @@
+li {
+    margin: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+a:visited {
+    color: #507443;
+}
+nav {
+    background-color: #758C42;
+    border-radius: 10px;
+}
