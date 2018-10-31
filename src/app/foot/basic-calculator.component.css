@@ -1,0 +1,45 @@
+#input1 {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(80, 116, 67, .3);
+    order: 1;
+}
+#input1:hover {
+    background-color: blueviolet;
+}
+#input2 {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(80, 116, 67, .3);
+    order: 3;
+}
+#input2:hover {
+    background-color: blueviolet;
+}
+#operation {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(80, 116, 67, .3);
+    order: 2;
+}
+#operation:hover {
+    background-color: blueviolet;
+}
+#equals {
+    margin: 20px;
+    order: 4;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+}
+#clear {
+    margin: 20px;
+    order: 5;
+    border-radius: 10px;
+}
+#container {
+    display: flex;
+}
+p {
+    font-size: 2em;
+}
